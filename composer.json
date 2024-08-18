@@ -2,6 +2,7 @@
     "name": "deannv/php-gachapon",
     "description": "A gachapon-like system, easy to integrate and play with.",
     "type": "library",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Deannv\\PhpGachapon\\": "src/"
