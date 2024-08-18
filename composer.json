@@ -1,0 +1,17 @@
+{
+    "name": "deannv/php-gachapon",
+    "description": "A gachapon-like system, easy to integrate and play with.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Deannv\\PhpGachapon\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kemz",
+            "email": "afilfriend@gmail.com"
+        }
+    ],
+    "require": {}
+}
