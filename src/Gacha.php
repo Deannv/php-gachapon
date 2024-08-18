@@ -70,13 +70,3 @@ class Gacha
         return $result;
     }
 }
-
-$data = [
-    ["name" => "item1", "drop_rate" => 3],
-    ["name" => "item2", "drop_rate" => 5],
-    ["name" => "item3", "drop_rate" => 2]
-];
-
-print_r(Gacha::from(['a' => 2, 'b' => 10])->pull());
-print_r(Gacha::pull(2, ['a' => 2, 'b' => 10]));
-print_r(Gacha::from($data)->pull());
